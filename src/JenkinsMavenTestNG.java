@@ -9,6 +9,7 @@ public class JenkinsMavenTestNG {
 	
 	@Test
 	public void sample(){
+		/*git*/
 		System.setProperty("webdriver.gecko.driver","E:\\selenium\\eclipse\\drivers\\geckodriver\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
